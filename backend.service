@@ -1,0 +1,9 @@
+[Unit]
+Description=API backend service
+
+[Service]
+ExecStart=%h/service/backend.sh
+WorkingDirectory=%h/service
+
+[Install]
+WantedBy=default.target
